@@ -3,8 +3,8 @@ The indexed data is too huge to upload, sample data for pagerank, indexed websit
 This project uses Streamlit for its front end <br>
 Created as part of a course for Information Retrieval
 
-Indexing - Whoosh
-FrontEnd - StreamLit
-Backend - Python
-Rankings used - Vector model, pageRank, Hubs and authority scores, agglomorative clustering
-Other Features - Query Prediction
+Indexing - Whoosh<br>
+FrontEnd - StreamLit<br>
+Backend - Python<br>
+Rankings used - Vector model, pageRank, Hubs and authority scores, agglomorative clustering<br>
+Other Features - Query Prediction<br>
