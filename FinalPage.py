@@ -731,40 +731,14 @@ with ix.searcher() as searcher:
       st.write("URL : ",i['url'])
       st.write(i['description'][0:200])
 
-  # elif relevance==True and pagerankcb==True and hitscb==False and fclustering==False and aggclustering==False and association==True and metric==False and scalar==False and google==False and bing==False:
-  #   #st.write("under construction....")
-  #   query = QueryParser("description", ix.schema).parse(searchterm)
-  #   results = searcher.search(query,limit=None)
 
-  #   expanded_query = association_main(searchterm, results)
-            
-  #   query = QueryParser("description", ix.schema).parse(expanded_query)
-  #   results_qe = searcher.search(query,limit=None)
-  #   results = parse_whoosh_results(results_qe)
-  #   st.write("----------")
-  #   st.write("**Expanded Query: "+expanded_query+"**")
-  #   st.write("----------")
-  #   if results[i]['url'] in authority_scores.keys():
-  #     results_mod[i]['score'] = authority_scores[results[i]['url']]
-  #   else:
-  #     results_mod[i]['score'] = 0.001*i
-  #   for i in results:
-  #     st.subheader(i['title'])
-  #     st.write("URL : ",i['url'])
-  #     st.write(i['description'][0:200])
-
-
-
-
-
-  
 
 
   elif relevance==False and pagerankcb==False and hitscb==False and fclustering==False and aggclustering==False and association==False and metric==False and scalar==False and google==True and bing==False:
 
-    #my_api_key = "AIzaSyBVWC68JcCxqDkwXog9TImX_Ht8Y1AXbGU"
+    
     st.write("Google Search Results")
-    #my_cse_id = "6943d84dd9b124a58"
+    
     #service = build("customsearch", "v1", developerKey=my_api_key)
     #res = service.cse().list(
         #q=searchterm,
